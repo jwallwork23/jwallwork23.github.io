@@ -14,3 +14,9 @@ the following links.
 
    Academic publications <publications>
    Software projects <software>
+
+My online profiles:
+
+* `Google Scholar <https://scholar.google.com/citations?user=7GdIt6YAAAAJ&hl>`__
+* `GitHub <https://github.com/jwallwork23>`__
+* `LinkedIn <https://www.linkedin.com/in/joseph-wallwork-487a61a5>`__
