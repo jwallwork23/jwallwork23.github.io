@@ -1,0 +1,9 @@
+.. title:: Publications
+
+.. only:: html
+
+Publications
+============
+
+.. bibliography::
+   :all:

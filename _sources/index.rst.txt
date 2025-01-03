@@ -1,0 +1,16 @@
+.. title:: Homepage
+
+.. only:: html
+
+Joseph G. Wallwork
+==================
+
+I'm a research software engineer (RSE) at the
+`Institute of Computing for Climate Science (ICCS) <https://iccs.cam.ac.uk/>`__.
+To find out more about the kind of research software I work on, take a look at
+the following links.
+
+.. toctree::
+
+   Academic publications <publications>
+   Software projects <software>

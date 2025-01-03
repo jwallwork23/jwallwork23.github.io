@@ -1,0 +1,23 @@
+.. title:: Software
+
+.. only:: html
+
+Software
+========
+
+Projects I currently work on:
+
+* `Animate <https://github.com/mesh-adaptation/animate/>`__ (lead developer)
+* `Movement <https://github.com/mesh-adaptation/movement/>`__ (lead developer)
+* `Goalie <https://github.com/mesh-adaptation/goalie/>`__ (lead developer)
+* `FTorch <https://cambridge-iccs.github.io/FTorch/>`__ (core developer)
+* `GISS-GC <https://github.com/fetch4/GISS-GC>`__ (core developer)
+* `UKCA <https://www.ukca.ac.uk/wiki/index.php/UKCA>`__ (developer)
+* `PSyclone <https://github.com/stfc/psyclone>`__ (contributor)
+
+Projects I worked on in the past:
+
+* `nextSIM-DG <https://github.com/nextsimhub/nextsimdg>`__ (developer)
+* `Thetis <https://thetisproject.org/>`__ (core developer)
+* `Firedrake <https://firedrakeproject.org/>`__ (developer)
+* `PETSC <https://www.mcs.anl.gov/petsc/>`__ (contributor)
