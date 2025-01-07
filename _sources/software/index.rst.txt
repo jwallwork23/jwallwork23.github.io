@@ -27,14 +27,10 @@ Projects I currently work on:
 
 Projects I worked on in the past:
 
-* `nextSIM-DG <https://github.com/nextsimhub/nextsimdg>`__ (developer):
-  Next-generation discontinuous Galerkin sea ice model written in C++.
-  - Main contribution: Enabling writing of files using the XIOS I/O tool.
-* `Thetis <https://thetisproject.org/>`__ (core developer):
-  Python-based unstructured mesh discontinuous Galerkin coastal ocean model
-  built upon Firedrake.
-* `Firedrake <https://firedrakeproject.org/>`__ (developer):
-  Python-based finite element package which automatically generates C kernels
-  and uses PETSc to solve linear and nonlinear systems.
-* `PETSc <https://www.mcs.anl.gov/petsc/>`__ (contributor):
-  C-based solver library.
+.. toctree::
+   :maxdepth: 1
+
+   nextSIM-DG (developer) <nextsimdg>
+   PETSc (contributor) <petsc>
+   Firedrake (developer) <firedrake>
+   Thetis (core developer) <thetis>

@@ -1,0 +1,49 @@
+PETSc
+=====
+
+Webpage: https://www.mcs.anl.gov/petsc
+
+PETSc is a numerical solver library written in C.
+
+Main contribution 1
+^^^^^^^^^^^^^^^^^^^
+
+Integration of the `Mmg and ParMmg <https://www.mmgtools.org>`__ metric-based
+mesh adaptation tools into PETSc. Both Mmg and ParMmg are written in C.
+
+Project information 1
+"""""""""""""""""""""
+
+This work was done as part of my postdoc at `Imperial College London
+<https://www.imperial.ac.uk>`__, which was funded by an `ARCHER2 eCSE
+<https://www.archer2.ac.uk/ecse>`__ grant from `EPCC
+<https://www.epcc.ed.ac.uk>`__.
+
+Resources 1
+"""""""""""
+
+* Research note describing this work: :cite:`WK22a`.
+* Report describing the postdoc more generally: :cite:`WP22`.
+* `PETSc manual page
+  <https://petsc.org/release/manual/dmplex/#metric-based-mesh-adaptation>`__.
+* `ARCHER2 seminar recording
+  <https://www.archer2.ac.uk/training/courses/220728-firedrake-vt>`__.
+* `News item on Mmg website
+  <https://www.mmgtools.org/mmg-simplicial-remesher/mmg-and-parmmg-are-now-available-within-petsc>`__.
+
+Main contribution 2
+^^^^^^^^^^^^^^^^^^^
+
+Integration of the `ADOL-C <https://github.com/coin-or/ADOL-C>`__ automatic
+differentiation tool into PETSc. ADOL-C is written in C++.
+
+Project information 2
+"""""""""""""""""""""
+
+This work was done during an internship at `Argonne National Laboratory
+<https://www.anl.gov>`__.
+
+Resources 2
+"""""""""""
+
+* Preprint describing this work: :cite:`WH19`.

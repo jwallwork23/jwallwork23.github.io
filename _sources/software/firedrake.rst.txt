@@ -1,0 +1,7 @@
+Firedrake
+#########
+
+Website: https://firedrakeproject.org
+
+Firedrake is a Python-based finite element package which automatically
+generates C kernels and uses PETSc to solve linear and nonlinear systems.

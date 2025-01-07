@@ -11,9 +11,10 @@ To find out more about the kind of research software I work on, take a look at
 the following links.
 
 .. toctree::
+   :maxdepth: 1
 
    Academic publications <publications>
-   Software projects <software>
+   Software projects <software/index>
 
 My online profiles:
 
