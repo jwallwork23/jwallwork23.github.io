@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>FTorch &#8212; Joseph G. Wallwork</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=12dfc556" />
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="UKCA GPU port" href="ukca-gpu-port.html" />
+    <link rel="prev" title="Software" href="index.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="ftorch">
+<h1>FTorch<a class="headerlink" href="#ftorch" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p>Repo: <a class="reference external" href="https://github.com/Cambridge-ICCS/FTorch">https://github.com/Cambridge-ICCS/FTorch</a></p></li>
+<li><p>Webpage: <a class="reference external" href="https://cambridge-iccs.github.io/FTorch">https://cambridge-iccs.github.io/FTorch</a></p></li>
+</ul>
+<p>FTorch is a library for coupling PyTorch models to Fortran. This is done by
+interfacing Fortran with the <cite>libtorch</cite> C++ backend underlying PyTorch, via the
+<cite>iso_c_binding</cite> module, which has been intrinsic to Fortran since the 2003
+standard. It’s an interesting project to work on, as it involves working with
+code in Python, C, C++, and Fortran, amongst other languages, software
+frameworks, and tools used for testing, linting, scripting, and documentation.</p>
+<section id="major-contributions">
+<h2>Major contributions<a class="headerlink" href="#major-contributions" title="Link to this heading">¶</a></h2>
+<p>I have been a core developer of FTorch since joining ICCS. Some major
+contributions of mine include:</p>
+<ul class="simple">
+<li><p>Enabling running on multiple GPU devices.</p></li>
+<li><p>Setting up and writing unit tests using the <a class="reference external" href="https://github.com/Goddard-Fortran-Ecosystem/pFUnit">pFUnit</a> unit test framework.</p></li>
+</ul>
+</section>
+<section id="project-as-co-pi">
+<h2>Project as Co-PI<a class="headerlink" href="#project-as-co-pi" title="Link to this heading">¶</a></h2>
+<p><em>Online training of large-scale Fortran-based hybrid computational science
+models, with applications in climate science</em></p>
+<p>Co-PI with <a class="reference external" href="https://jackatkinson.net">Jack Atkinson</a>.</p>
+<section id="development-tasks">
+<h3>Development tasks<a class="headerlink" href="#development-tasks" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Set up online training in FTorch.</p></li>
+<li><p>Expose PyTorch’s Autograd functionality in FTorch, meaning gradient values can
+be tracked across mathematical operations acting on Torch Tensors.</p></li>
+</ul>
+</section>
+<section id="community-tasks">
+<h3>Community tasks<a class="headerlink" href="#community-tasks" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Organise and run a <a class="reference external" href="https://cambridge-iccs.github.io/ml-coupling-workshop">workshop</a> on best practices
+for integrating machine learning into large-scale scientific modelling
+frameworks.</p></li>
+<li><p>Research visits to assist collaborators with integrating online training into
+their ML workflows.</p></li>
+<li><p>Integrate FTorch into the <a class="reference external" href="https://www.cesm.ucar.edu">Community Earth System Model (CESM)</a> build system on
+the high-performance computing system at the <a class="reference external" href="https://ncar.ucar.edu">National Center for Atmospheric
+Research (NCAR)</a>.</p></li>
+<li><p>Give FTorch tutorials on several occasions, including at <a class="reference external" href="https://durham.readthedocs.io/en/latest/hpcdays/index.html">Durham HPC Days
+2025</a>.</p></li>
+</ul>
+</section>
+<section id="project-information">
+<h3>Project information<a class="headerlink" href="#project-information" title="Link to this heading">¶</a></h3>
+<p>This work was done as an RSE at the
+<a class="reference external" href="https://iccs.cam.ac.uk">Institute of Computing for Climate Science (ICCS)</a>.
+It was supported by both ICCS and by a <a class="reference external" href="https://www.c2d3.cam.ac.uk/opportunities/accelerate-programme-c2d3-2024-joint-funding-call">joint grant</a>
+from the <a class="reference external" href="https://www.c2d3.cam.ac.uk">Cambridge Centre for Data-Driven Discovery (C2D3)</a> and <a class="reference external" href="https://ai.cam.ac.uk">ai&#64;cam</a>’s
+<a class="reference external" href="https://science.ai.cam.ac.uk">Accelerate Programme</a>.</p>
+</section>
+<section id="resources">
+<h3>Resources<a class="headerlink" href="#resources" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>FTorch software description paper: <span id="id1">[<a class="reference internal" href="../publications.html#id3" title="J. Atkinson, A. Elafrou, E. Kasoar, J. G. Wallwork, T. Meltzer, S. Clifford, C. Edsall, and D. Orchard. FTorch: a library for coupling PyTorch models to Fortran. Journal of Open Source Software, 10(107):7602, 2025. doi:10.21105/joss.07602.">1</a>]</span>.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="https://avatars.githubusercontent.com/u/22053413" alt="Logo of Joseph G. Wallwork"/>
+            </a></p>
+<h1 class="logo"><a href="../index.html">Joseph G. Wallwork</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../publications.html">Academic publications</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Software projects</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Software</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Software</a></li>
+      <li>Next: <a href="ukca-gpu-port.html" title="next chapter">UKCA GPU port</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Joseph G. Wallwork.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="../_sources/software/ftorch.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>nextSIM-DG &#8212; Joseph G. Wallwork</title>
+    <title>GISS-GC &#8212; Joseph G. Wallwork</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=12dfc556" />
     <script src="../_static/documentation_options.js?v=5929fcd5"></script>
@@ -13,7 +13,8 @@
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Thetis" href="thetis.html" />
+    <link rel="next" title="PETSc" href="petsc.html" />
+    <link rel="prev" title="UKCA GPU port" href="ukca-gpu-port.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
   
@@ -31,13 +32,21 @@
 
           <div class="body" role="main">
             
-  <section id="nextsim-dg">
-<h1>nextSIM-DG<a class="headerlink" href="#nextsim-dg" title="Link to this heading">¶</a></h1>
-<p>Repo: <a class="reference external" href="https://github.com/nextsimhub/nextsimdg">https://github.com/nextsimhub/nextsimdg</a></p>
-<p>A next-generation discontinuous Galerkin sea ice model written in C++.</p>
+  <section id="giss-gc">
+<h1>GISS-GC<a class="headerlink" href="#giss-gc" title="Link to this heading">¶</a></h1>
+<p>Repo: <a class="reference external" href="https://github.com/fetch4/GISS-GC">https://github.com/fetch4/GISS-GC</a></p>
+<p>Coupling effort for the <a class="reference external" href="https://www.nccs.nasa.gov/services/data-collections/coupled-products/modelIE">GISS Model E</a>
+weather and climate model with the <a class="reference external" href="https://geoschem.github.io/index.html">GEOS-Chem</a> atmospheric chemistry model. Both
+models are written in Fortran.</p>
 <section id="main-contribution">
 <h2>Main contribution<a class="headerlink" href="#main-contribution" title="Link to this heading">¶</a></h2>
-<p>Enabling writing of files using the XIOS I/O tool.</p>
+<p>I am currently leading ICCS’ effort to finish the coupling effort, which
+involves project management, as well as the technical tasks of configuring,
+building and running the coupled model on different high-performance computers,
+setting up development tools for the project, and ensuring that restart files
+and diagnostics are handled correctly.</p>
+<p>As part of this project, I had a contribution included in <a class="reference external" href="https://zenodo.org/records/14629792">GEOS-Chem version
+14.5.1</a>.</p>
 <section id="project-information">
 <h3>Project information<a class="headerlink" href="#project-information" title="Link to this heading">¶</a></h3>
 <p>This work was done as an RSE at the
@@ -78,7 +87,8 @@ project funded by <a class="reference external" href="https://www.schmidtscience
 <ul>
   <li><a href="../index.html">Documentation overview</a><ul>
   <li><a href="index.html">Software</a><ul>
-      <li>Previous: <a href="thetis.html" title="previous chapter">Thetis</a></li>
+      <li>Previous: <a href="ukca-gpu-port.html" title="previous chapter">UKCA GPU port</a></li>
+      <li>Next: <a href="petsc.html" title="next chapter">PETSc</a></li>
   </ul></li>
   </ul></li>
 </ul>
@@ -113,7 +123,7 @@ project funded by <a class="reference external" href="https://www.schmidtscience
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |
-      <a href="../_sources/software/nextsimdg.rst.txt"
+      <a href="../_sources/software/giss-gc.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

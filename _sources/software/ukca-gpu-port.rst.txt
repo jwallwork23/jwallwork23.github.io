@@ -1,0 +1,62 @@
+UKCA GPU port
+=============
+
+The `United Kingdom Chemistry and Aerosols (UKCA)
+<https://www.ukca.ac.uk/wiki/index.php/UKCA>`__ model is the UK's community
+atmospheric chemistry model. It is written in Fortran and has been developed by
+contributors from several research groups and institutions (notably the Met
+Office, University of Cambridge, and University of Leeds) over several decades.
+It is a core part of the Met Office's operational weather model and the
+`United Kingdom Earth System Model (UKESM) <https://ukesm.ac.uk/>`__, which has
+contributed to `Coupled Model Inter-comparison Project (CMIP)
+<https://wcrp-cmip.org>`__ climate modelling iterations, whose data support
+`IPCC <https://www.ipcc.ch>`__ reports.
+
+`PSyclone <https://github.com/stfc/psyclone>`__ is a Python-based
+domain-specific compiler and code transformation system for Earth-system models
+written in Fortran. It plays a key role in the Met Office's next-generation
+weather model `LFRic
+<https://www.metoffice.gov.uk/research/approach/modelling-systems/lfric>`__ and
+can be used to transform code according to user-provided transformation
+specifications.
+
+Main contribution 1
+^^^^^^^^^^^^^^^^^^^
+
+Whilst a Scientific Software Engineer (SSE) at the Met Office, I was deployed
+on the GPU port for UKCA. UKCA is known to be a particularly computationally
+costly part of the Met Office's model, making it a key candidate for
+acceleration via GPU offloading.
+
+Early in the project, I worked with collaborators to first manually insert
+`OpenACC <https://www.openacc.org>`__ pragmas for offloading on Nvidia GPUs.
+Facilitating this also involved major code changes and refactoring.
+
+Later in the project, I led the effort to replicate the manual insertion of
+OpenACC pragmas using PSyclone, to improve portability of the GPU porting
+approach. To achieve this, I developed an internal tool for streamlining OpenACC
+GPU porting with PSyclone, which I have since upstreamed into PSyclone itself.
+
+Project information 1
+"""""""""""""""""""""
+
+My work as an SSE at the Met Office received funding from the UK's `ExCALIBUR
+<https://excalibur.ac.uk>`__ exascale computing grant.
+
+Main contribution 2
+^^^^^^^^^^^^^^^^^^^
+
+Upon joining the University of Cambridge as an RSE, I was deployed part-time
+onto the follow-up project, NG-ARCH, which was outsourced to several UK
+universities by the Met Office. The focus of this work is to build upon the
+ExCALIBUR effort and work to get the approach merged into the main codebase.
+
+I continue to make regular contributions to both UKCA and PSyclone.
+
+Project information 2
+"""""""""""""""""""""
+
+The NG-ARCH project is part of the Met Office's
+`Next-Generation Modelling Systems (NGMS)
+<https://www.metoffice.gov.uk/research/approach/modelling-systems/next-gen-modelling-systems>`__
+programme.
