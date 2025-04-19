@@ -1,7 +1,7 @@
 Online training of large-scale Fortran-based hybrid computational science models, with applications in climate science
 ======================================================================================================================
 
-*Co-PI with `Jack Atkinson <https://jackatkinson.net>`__.*
+[Co-PI with `Jack Atkinson <https://jackatkinson.net>`__.]
 
 `FTorch <https://cambridge-iccs.github.io/FTorch>`__ is a library for coupling
 PyTorch models to Fortran. This is done by interfacing Fortran with the
