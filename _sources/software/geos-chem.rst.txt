@@ -1,0 +1,21 @@
+GEOS-Chem
+=========
+
+`GEOS-Chem <https://geos-chem.readthedocs.io>`__ is an atmospheric chemical
+transport model written in Fortran.
+
+Contributions
+"""""""""""""
+
+* Fixed an oversight in an array allocation implementation.
+* Add a continuous integration workflow for checking that the files describing
+  all such workflows are formatted correctly and do not contain any potential
+  security vulnerabilities.
+
+Projects
+""""""""
+
+.. toctree::
+   :maxdepth: 1
+
+   GISS-GC <projects/giss-gc>

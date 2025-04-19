@@ -1,0 +1,32 @@
+UKCA GPU port
+=============
+
+Whilst a Scientific Software Engineer (SSE) at the Met Office, I was deployed
+on the GPU port for UKCA. UKCA is known to be a particularly computationally
+costly part of the Met Office's model, making it a key candidate for
+acceleration via GPU offloading.
+
+Early in the project, I worked with collaborators to first manually insert
+`OpenACC <https://www.openacc.org>`__ pragmas for offloading on Nvidia GPUs.
+Facilitating this also involved major code changes and refactoring.
+
+Later in the project, I led the effort to replicate the manual insertion of
+OpenACC pragmas using PSyclone, to improve portability of the GPU porting
+approach. To achieve this, I developed an internal tool for streamlining OpenACC
+GPU porting with PSyclone, which I have since upstreamed into PSyclone itself.
+
+Upon joining the University of Cambridge as an RSE, I was deployed part-time
+onto the follow-up project, NG-ARCH, which was outsourced to several UK
+universities by the Met Office. The focus of this work is to build upon the
+ExCALIBUR effort and work to get the approach merged into the main codebase.
+
+I continue to make regular contributions to both UKCA and PSyclone.
+
+Funding information
+"""""""""""""""""""
+
+My work as an SSE at the Met Office received funding from the UK's `ExCALIBUR
+<https://excalibur.ac.uk>`__ exascale computing grant. The NG-ARCH project is
+part of the Met Office's `Next-Generation Modelling Systems (NGMS)
+<https://www.metoffice.gov.uk/research/approach/modelling-systems/next-gen-modelling-systems>`__
+programme.

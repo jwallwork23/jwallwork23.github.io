@@ -1,20 +1,17 @@
 nextSIM-DG
 ==========
 
-Repo: https://github.com/nextsimhub/nextsimdg
+`nextSIM-DG <https://github.com/nextsimhub/nextsimdg>`__ is a next-generation
+discontinuous Galerkin sea ice model written in C++.
 
-A next-generation discontinuous Galerkin sea ice model written in C++.
+I was actively involved in nextSIM-DG development during a project as part of my
+work as a Research Software Engineer at the `Institute of Computing for Climate
+Science (ICCS) <https://iccs.cam.ac.uk>`__.
 
-Main contribution
-^^^^^^^^^^^^^^^^^
+Projects
+""""""""
 
-Enabling writing of files using the XIOS I/O tool.
+.. toctree::
+   :maxdepth: 1
 
-Project information
-"""""""""""""""""""
-
-This work was done as an RSE at the
-`Institute of Computing for Climate Science (ICCS) <https://iccs.cam.ac.uk>`__.
-It was a `Virtual Earth Science Research Institute (VESRI)
-<https://www.schmidtsciences.org/virtual-earth-system-research-institute-vesri>`__
-project funded by `Schmidt Sciences <https://www.schmidtsciences.org>`__.
+   nextSIM-DG I/O <projects/nextsimdg>

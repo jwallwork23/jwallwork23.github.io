@@ -1,0 +1,51 @@
+Online training of large-scale Fortran-based hybrid computational science models, with applications in climate science
+======================================================================================================================
+
+*Co-PI with `Jack Atkinson <https://jackatkinson.net>`__.*
+
+`FTorch <https://cambridge-iccs.github.io/FTorch>`__ is a library for coupling
+PyTorch models to Fortran. This is done by interfacing Fortran with the
+`libtorch` C++ backend underlying PyTorch, via the `iso_c_binding` module, which
+has been intrinsic to Fortran since the 2003 standard. It's an interesting
+project to work on, as it involves working with code in Python, C, C++, and
+Fortran, amongst other languages, software frameworks, and tools used for
+testing, linting, scripting, and documentation.
+
+Development tasks
+"""""""""""""""""
+
+* Set up online training in FTorch.
+* Expose PyTorch's Autograd functionality in FTorch, meaning gradient values can
+  be tracked across mathematical operations acting on Torch Tensors.
+
+Community tasks
+"""""""""""""""
+
+* Organise and run a `workshop
+  <https://cambridge-iccs.github.io/ml-coupling-workshop>`__ on best practices
+  for integrating machine learning into large-scale scientific modelling
+  frameworks.
+* Research visits to assist collaborators with integrating online training into
+  their ML workflows.
+* Integrate FTorch into the `Community Earth System Model (CESM)
+  <https://www.cesm.ucar.edu>`__ build system on
+  the high-performance computing system at the `National Center for Atmospheric
+  Research (NCAR) <https://ncar.ucar.edu>`__.
+* Give FTorch tutorials on several occasions, including at `Durham HPC Days
+  2025 <https://durham.readthedocs.io/en/latest/hpcdays/index.html>`_.
+
+Project information
+"""""""""""""""""""
+
+This work is currently underway as an RSE at the
+`Institute of Computing for Climate Science (ICCS) <https://iccs.cam.ac.uk>`__.
+It was supported by both ICCS and by a `joint grant
+<https://www.c2d3.cam.ac.uk/opportunities/accelerate-programme-c2d3-2024-joint-funding-call>`__
+from the `Cambridge Centre for Data-Driven Discovery (C2D3)
+<https://www.c2d3.cam.ac.uk>`__ and `ai@cam <https://ai.cam.ac.uk>`__'s
+`Accelerate Programme <https://science.ai.cam.ac.uk>`__.
+
+Outputs
+"""""""
+
+* FTorch software description paper: :cite:`AE25`.

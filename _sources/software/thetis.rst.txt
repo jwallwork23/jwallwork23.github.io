@@ -1,32 +1,17 @@
 Thetis
 ######
 
-Website: https://thetisproject.org
+`Thetis <https://thetisproject.org>`__ is a Python-based unstructured mesh
+discontinuous Galerkin coastal ocean model built upon `Firedrake
+<firedrake.html>`__.
 
-Thetis is a Python-based unstructured mesh discontinuous Galerkin coastal ocean
-model built upon `Firedrake <https://firedrakeproject.org>`__.
+I was a core member of the Thetis development team during my time as a PhD
+student and postdoc at `Imperial College London <https://imperial.ac.uk>`__.
 
-I was part of the Thetis core developer team during my time as a PhD student and
-postdoc at `Imperial College London <https://imperial.ac.uk>`__.
+Projects
+""""""""
 
-Major contribution
-^^^^^^^^^^^^^^^^^^
+.. toctree::
+   :maxdepth: 1
 
-Development of capability for PDE-constrained optimisation and inversion tools
-for Thetis.
-
-Project information
-"""""""""""""""""""
-
-This work was done as part of my postdoc at `Imperial College London
-<https://www.imperial.ac.uk>`__, which was funded by an `ARCHER2 eCSE
-<https://www.archer2.ac.uk/ecse>`__ grant from `EPCC
-<https://www.epcc.ed.ac.uk>`__. This work also received support from a grant
-from `HPC Europa <https://www.hpc-europa.org>`__ for me to visit Tuomas Kärnä
-at the `Finnish Meteorological Institute <https://en.ilmatieteenlaitos.fi>`__.
-
-Resources
-"""""""""
-
-* Report describing this work: :cite:`WK22b`.
-* Paper describing applications of this work: :cite:`KW23`.
+   Adjoint-based inversion for coastal ocean modelling <projects/thetis>

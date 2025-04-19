@@ -1,7 +1,32 @@
 Firedrake
 #########
 
-Website: https://firedrakeproject.org
+`Firedrake <https://firedrakeproject.org>`__ is a Python-based finite element
+package which automatically generates C kernels and uses `PETSc <petsc.html>`__
+to solve linear and nonlinear systems.
 
-Firedrake is a Python-based finite element package which automatically
-generates C kernels and uses PETSc to solve linear and nonlinear systems.
+Whilst a PhD student and then postdoc at `Imperial College London
+<https://imperial.ac.uk>`__, I make several contributions to Firedrake and
+regularly attended the development meetings.
+
+Major contributions
+^^^^^^^^^^^^^^^^^^^
+
+* Enhancements to the automatic differentiation and adjoint modelling
+  functionality.
+* `Jupyter notebook
+  <https://nbviewer.org/github/firedrakeproject/firedrake/blob/master/docs/notebooks/11-extract-adjoint-solutions.ipynb>`__
+  on solving adjoint problems in Firedrake.
+* `Documentation section
+  <https://www.firedrakeproject.org/petsc-interface.html#accessing-the-petsc-mesh-representation>`__
+  on accessing the PETSc mesh representation underlying the one used in
+  Firedrake.
+
+Projects
+""""""""
+
+.. toctree::
+   :maxdepth: 1
+
+   Coupling mesh adaptation tools Mmg and ParMmg to PETSc and Firedrake <projects/ecse-mmg>
+   Data-driven mesh adaptation (developer) <projects/data-driven-adapt>

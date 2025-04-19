@@ -1,0 +1,33 @@
+Coupling mesh adaptation tools Mmg and ParMmg to PETSc and Firedrake
+====================================================================
+
+I led the effort to integrate the `Mmg and ParMmg <https://www.mmgtools.org>`__
+metric-based mesh adaptation tools into the numerical solver library `PETSc
+<../petsc.html>`__, and subsequently making this functionality available in the
+`Firedrake <../firedrake.html>`__ finite element library.
+
+Mmg, ParMmg, and PETSc are all written in C. Firedrake is a Python-based
+package which automatically generates C kernels and uses PETSc to solve linear
+and nonlinear systems.
+
+Funding information
+"""""""""""""""""""
+
+This work was done as part of my postdoc at `Imperial College London
+<https://www.imperial.ac.uk>`__, which was funded by an `ARCHER2 eCSE
+<https://www.archer2.ac.uk/ecse>`__ grant from `EPCC
+<https://www.epcc.ed.ac.uk>`__.
+
+Outputs
+"""""""
+
+* Research note describing this work: :cite:`WK22a`.
+* Report describing the postdoc more generally: :cite:`WP22`.
+* `PETSc manual page
+  <https://petsc.org/release/manual/dmplex/#metric-based-mesh-adaptation>`__.
+* `ARCHER2 seminar recording
+  <https://www.archer2.ac.uk/training/courses/220728-firedrake-vt>`__.
+* `News item on Mmg website
+  <https://www.mmgtools.org/mmg-simplicial-remesher/mmg-and-parmmg-are-now-available-within-petsc>`__.
+* This work led onto the `Firedrake-based adaptation tools
+  <adapt-packages.html>`__ project.

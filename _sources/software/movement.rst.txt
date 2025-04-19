@@ -1,0 +1,15 @@
+Movement
+========
+
+`Movement <https://github.com/mesh-adaptation/movement>`__ is a Python-based
+mesh movement toolkit for `Firedrake <firedrake.html>`__. I am the lead
+developer of Movement.
+
+Projects
+""""""""
+
+.. toctree::
+   :maxdepth: 1
+
+   Packages supporting mesh adaptation in Firedrake <projects/adapt-packages>
+   Data-driven mesh adaptation (developer) <projects/data-driven-adapt>

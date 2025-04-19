@@ -1,0 +1,17 @@
+Automatic differentiation in PETSc
+==================================
+
+Integration of the `ADOL-C <https://github.com/coin-or/ADOL-C>`__ automatic
+differentiation tool into `PETSc <https://www.mcs.anl.gov/petsc>`__ numerical
+solver library. PETSc is written in C, while ADOL-C is written in C++.
+
+Funding information
+"""""""""""""""""""
+
+This work was done during an internship at `Argonne National Laboratory
+<https://www.anl.gov>`__, funded by the US Department of Energy.
+
+Outputs
+"""""""
+
+* Preprint describing this work: :cite:`WH19`.

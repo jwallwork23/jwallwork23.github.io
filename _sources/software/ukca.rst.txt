@@ -1,0 +1,28 @@
+UKCA
+====
+
+The `United Kingdom Chemistry and Aerosols (UKCA)
+<https://www.ukca.ac.uk/wiki/index.php/UKCA>`__ model is the UK's community
+atmospheric chemistry model. It is written in Fortran and has been developed by
+contributors from several research groups and institutions (notably the Met
+Office, University of Cambridge, and University of Leeds) over several decades.
+It is a core part of the Met Office's operational weather model and the
+`United Kingdom Earth System Model (UKESM) <https://ukesm.ac.uk/>`__, which has
+contributed to `Coupled Model Inter-comparison Project (CMIP)
+<https://wcrp-cmip.org>`__ climate modelling iterations, whose data support
+`IPCC <https://www.ipcc.ch>`__ reports.
+
+Major contributions
+"""""""""""""""""""
+
+* Add functionality to pass the whole domain's worth of data to the chemistry
+  solver, as opposed to vertical columns or horizontal slices.
+* Allow the code base to be parsable by `PSyclone <psyclone.html>`__.
+
+Projects
+""""""""
+
+.. toctree::
+   :maxdepth: 1
+
+   UKCA GPU port <projects/ukca-gpu-port>

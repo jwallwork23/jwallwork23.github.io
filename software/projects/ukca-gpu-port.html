@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>UKCA GPU port &#8212; Joseph G. Wallwork</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=27fed22d" />
+    <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="PSyclone" href="../psyclone.html" />
+    <link rel="prev" title="UKCA" href="../ukca.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="ukca-gpu-port">
+<h1>UKCA GPU port<a class="headerlink" href="#ukca-gpu-port" title="Link to this heading">¶</a></h1>
+<p>Whilst a Scientific Software Engineer (SSE) at the Met Office, I was deployed
+on the GPU port for UKCA. UKCA is known to be a particularly computationally
+costly part of the Met Office’s model, making it a key candidate for
+acceleration via GPU offloading.</p>
+<p>Early in the project, I worked with collaborators to first manually insert
+<a class="reference external" href="https://www.openacc.org">OpenACC</a> pragmas for offloading on Nvidia GPUs.
+Facilitating this also involved major code changes and refactoring.</p>
+<p>Later in the project, I led the effort to replicate the manual insertion of
+OpenACC pragmas using PSyclone, to improve portability of the GPU porting
+approach. To achieve this, I developed an internal tool for streamlining OpenACC
+GPU porting with PSyclone, which I have since upstreamed into PSyclone itself.</p>
+<p>Upon joining the University of Cambridge as an RSE, I was deployed part-time
+onto the follow-up project, NG-ARCH, which was outsourced to several UK
+universities by the Met Office. The focus of this work is to build upon the
+ExCALIBUR effort and work to get the approach merged into the main codebase.</p>
+<p>I continue to make regular contributions to both UKCA and PSyclone.</p>
+<section id="funding-information">
+<h2>Funding information<a class="headerlink" href="#funding-information" title="Link to this heading">¶</a></h2>
+<p>My work as an SSE at the Met Office received funding from the UK’s <a class="reference external" href="https://excalibur.ac.uk">ExCALIBUR</a> exascale computing grant. The NG-ARCH project is
+part of the Met Office’s <a class="reference external" href="https://www.metoffice.gov.uk/research/approach/modelling-systems/next-gen-modelling-systems">Next-Generation Modelling Systems (NGMS)</a>
+programme.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../index.html">
+              <img class="logo" src="https://avatars.githubusercontent.com/u/22053413" alt="Logo of Joseph G. Wallwork"/>
+            </a></p>
+<h1 class="logo"><a href="../../index.html">Joseph G. Wallwork</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../publications.html">Academic publications</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Software projects</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">Software</a><ul>
+  <li><a href="../ukca.html">UKCA</a><ul>
+      <li>Previous: <a href="../ukca.html" title="previous chapter">UKCA</a></li>
+      <li>Next: <a href="../psyclone.html" title="next chapter">PSyclone</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Joseph G. Wallwork.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="../../_sources/software/projects/ukca-gpu-port.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

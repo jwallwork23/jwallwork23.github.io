@@ -1,0 +1,15 @@
+Goalie
+======
+
+`Goalie <https://github.com/mesh-adaptation/goalie>`__ is a Python-based
+goal-oriented error estimation and mesh adaptation tool for `Firedrake
+<firedrake.html>`__. I am the lead developer of Goalie.
+
+Projects
+""""""""
+
+.. toctree::
+   :maxdepth: 1
+
+   Packages supporting mesh adaptation in Firedrake <projects/adapt-packages>
+   Combining mesh adaptation and PDE-constrained optimisation <projects/opt-adapt>

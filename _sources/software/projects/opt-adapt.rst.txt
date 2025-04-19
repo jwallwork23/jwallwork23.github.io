@@ -1,0 +1,30 @@
+Combining mesh adaptation and PDE-constrained optimisation
+==========================================================
+
+
+Main contribution
+^^^^^^^^^^^^^^^^^
+
+I am involved in a research project base at `Imperial College London
+<https://www.imperial.ac.uk>`__ on various advanced topics related to mesh
+adaptation as a consultant.
+
+In the second half of the project, we are investigating how mesh adaptation
+approaches may be combined into PDE-constrained optimisation methods such that
+they accelerate the convergence and/or time-to-solution of the optimisation
+approaches. As part of this work, I am in the process of adding PDE-constrained
+optimisation functionality to `Goalie <../goalie.html>`__, so that we will be
+able to interleave goal-oriented mesh adaptation with the optimisation process.
+
+Funding information
+"""""""""""""""""""
+
+This project is funded by `Huawei Corporation Ltd.
+<https://www.huawei.com/en>`__ and involves collaboration with the Noah's Ark
+Lab.
+
+Resources
+"""""""""
+
+* `First half of the project <data-driven-adapt.html>`__ on data-driven mesh
+  adaptation.

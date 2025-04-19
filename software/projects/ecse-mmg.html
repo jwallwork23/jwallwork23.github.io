@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Coupling mesh adaptation tools Mmg and ParMmg to PETSc and Firedrake &#8212; Joseph G. Wallwork</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=27fed22d" />
+    <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Automatic differentiation in PETSc" href="anl.html" />
+    <link rel="prev" title="PETSc" href="../petsc.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="coupling-mesh-adaptation-tools-mmg-and-parmmg-to-petsc-and-firedrake">
+<h1>Coupling mesh adaptation tools Mmg and ParMmg to PETSc and Firedrake<a class="headerlink" href="#coupling-mesh-adaptation-tools-mmg-and-parmmg-to-petsc-and-firedrake" title="Link to this heading">¶</a></h1>
+<p>I led the effort to integrate the <a class="reference external" href="https://www.mmgtools.org">Mmg and ParMmg</a>
+metric-based mesh adaptation tools into the numerical solver library <a class="reference external" href="../petsc.html">PETSc</a>, and subsequently making this functionality available in the
+<a class="reference external" href="../firedrake.html">Firedrake</a> finite element library.</p>
+<p>Mmg, ParMmg, and PETSc are all written in C. Firedrake is a Python-based
+package which automatically generates C kernels and uses PETSc to solve linear
+and nonlinear systems.</p>
+<section id="funding-information">
+<h2>Funding information<a class="headerlink" href="#funding-information" title="Link to this heading">¶</a></h2>
+<p>This work was done as part of my postdoc at <a class="reference external" href="https://www.imperial.ac.uk">Imperial College London</a>, which was funded by an <a class="reference external" href="https://www.archer2.ac.uk/ecse">ARCHER2 eCSE</a> grant from <a class="reference external" href="https://www.epcc.ed.ac.uk">EPCC</a>.</p>
+</section>
+<section id="outputs">
+<h2>Outputs<a class="headerlink" href="#outputs" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Research note describing this work: <span id="id1">[<a class="reference internal" href="../../publications.html#id12" title="J. G. Wallwork, M. G. Knepley, N. Barral, and M. D. Piggott. Parallel metric-based mesh adaptation in PETSc using ParMmg. 30th International Meshing Roundtable, 2022. arXiv:2201.02806, doi:10.48550/arXiv.2201.02806.">14</a>]</span>.</p></li>
+<li><p>Report describing the postdoc more generally: <span id="id2">[<a class="reference internal" href="../../publications.html#id9" title="J. G. Wallwork and M. D. Piggott. Goal-oriented mesh adaptation for Firedrake. eCSE03-4 technical report, Oct 2022. URL: https://www.archer2.ac.uk/ecse/reports/ARCHER2-eCSE03-04-technical-report.pdf, doi:10.5281/zenodo.7142449.">17</a>]</span>.</p></li>
+<li><p><a class="reference external" href="https://petsc.org/release/manual/dmplex/#metric-based-mesh-adaptation">PETSc manual page</a>.</p></li>
+<li><p><a class="reference external" href="https://www.archer2.ac.uk/training/courses/220728-firedrake-vt">ARCHER2 seminar recording</a>.</p></li>
+<li><p><a class="reference external" href="https://www.mmgtools.org/mmg-simplicial-remesher/mmg-and-parmmg-are-now-available-within-petsc">News item on Mmg website</a>.</p></li>
+<li><p>This work led onto the <a class="reference external" href="adapt-packages.html">Firedrake-based adaptation tools</a> project.</p></li>
+</ul>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../index.html">
+              <img class="logo" src="https://avatars.githubusercontent.com/u/22053413" alt="Logo of Joseph G. Wallwork"/>
+            </a></p>
+<h1 class="logo"><a href="../../index.html">Joseph G. Wallwork</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../publications.html">Academic publications</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Software projects</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">Software</a><ul>
+  <li><a href="../petsc.html">PETSc</a><ul>
+      <li>Previous: <a href="../petsc.html" title="previous chapter">PETSc</a></li>
+      <li>Next: <a href="anl.html" title="next chapter">Automatic differentiation in PETSc</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Joseph G. Wallwork.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="../../_sources/software/projects/ecse-mmg.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

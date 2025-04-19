@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>nextSIM-DG &#8212; Joseph G. Wallwork</title>
+    <title>UKCA &#8212; Joseph G. Wallwork</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../_static/basic.css?v=b08954a9" />
     <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=27fed22d" />
@@ -14,8 +14,8 @@
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="nextSIM-DG I/O" href="projects/nextsimdg.html" />
-    <link rel="prev" title="Online training of large-scale Fortran-based hybrid computational science models, with applications in climate science" href="projects/ftorch.html" />
+    <link rel="next" title="UKCA GPU port" href="projects/ukca-gpu-port.html" />
+    <link rel="prev" title="nextSIM-DG I/O" href="projects/nextsimdg.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
   
@@ -33,18 +33,29 @@
 
           <div class="body" role="main">
             
-  <section id="nextsim-dg">
-<h1>nextSIM-DG<a class="headerlink" href="#nextsim-dg" title="Link to this heading">¶</a></h1>
-<p><a class="reference external" href="https://github.com/nextsimhub/nextsimdg">nextSIM-DG</a> is a next-generation
-discontinuous Galerkin sea ice model written in C++.</p>
-<p>I was actively involved in nextSIM-DG development during a project as part of my
-work as a Research Software Engineer at the <a class="reference external" href="https://iccs.cam.ac.uk">Institute of Computing for Climate
-Science (ICCS)</a>.</p>
+  <section id="ukca">
+<h1>UKCA<a class="headerlink" href="#ukca" title="Link to this heading">¶</a></h1>
+<p>The <a class="reference external" href="https://www.ukca.ac.uk/wiki/index.php/UKCA">United Kingdom Chemistry and Aerosols (UKCA)</a> model is the UK’s community
+atmospheric chemistry model. It is written in Fortran and has been developed by
+contributors from several research groups and institutions (notably the Met
+Office, University of Cambridge, and University of Leeds) over several decades.
+It is a core part of the Met Office’s operational weather model and the
+<a class="reference external" href="https://ukesm.ac.uk/">United Kingdom Earth System Model (UKESM)</a>, which has
+contributed to <a class="reference external" href="https://wcrp-cmip.org">Coupled Model Inter-comparison Project (CMIP)</a> climate modelling iterations, whose data support
+<a class="reference external" href="https://www.ipcc.ch">IPCC</a> reports.</p>
+<section id="major-contributions">
+<h2>Major contributions<a class="headerlink" href="#major-contributions" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Add functionality to pass the whole domain’s worth of data to the chemistry
+solver, as opposed to vertical columns or horizontal slices.</p></li>
+<li><p>Allow the code base to be parsable by <a class="reference external" href="psyclone.html">PSyclone</a>.</p></li>
+</ul>
+</section>
 <section id="projects">
 <h2>Projects<a class="headerlink" href="#projects" title="Link to this heading">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="projects/nextsimdg.html">nextSIM-DG I/O</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects/ukca-gpu-port.html">UKCA GPU port</a></li>
 </ul>
 </div>
 </section>
@@ -89,8 +100,8 @@ Science (ICCS)</a>.</p>
 <ul>
   <li><a href="../index.html">Documentation overview</a><ul>
   <li><a href="index.html">Software</a><ul>
-      <li>Previous: <a href="projects/ftorch.html" title="previous chapter">Online training of large-scale Fortran-based hybrid computational science models, with applications in climate science</a></li>
-      <li>Next: <a href="projects/nextsimdg.html" title="next chapter">nextSIM-DG I/O</a></li>
+      <li>Previous: <a href="projects/nextsimdg.html" title="previous chapter">nextSIM-DG I/O</a></li>
+      <li>Next: <a href="projects/ukca-gpu-port.html" title="next chapter">UKCA GPU port</a></li>
   </ul></li>
   </ul></li>
 </ul>
@@ -115,7 +126,7 @@ Science (ICCS)</a>.</p>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="../_sources/software/nextsimdg.rst.txt"
+      <a href="../_sources/software/ukca.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

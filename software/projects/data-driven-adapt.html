@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data-driven mesh adaptation &#8212; Joseph G. Wallwork</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=27fed22d" />
+    <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="PETSc" href="../petsc.html" />
+    <link rel="prev" title="Movement" href="../movement.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="data-driven-mesh-adaptation">
+<h1>Data-driven mesh adaptation<a class="headerlink" href="#data-driven-mesh-adaptation" title="Link to this heading">¶</a></h1>
+<section id="main-contribution">
+<h2>Main contribution<a class="headerlink" href="#main-contribution" title="Link to this heading">¶</a></h2>
+<p>I am involved in a research project base at <a class="reference external" href="https://www.imperial.ac.uk">Imperial College London</a> on various advanced topics related to mesh
+adaptation as a consultant.</p>
+<p>In the first half on data-driven methods, we investigated how mesh movement
+methods such as those implemented in <a class="reference external" href="../movement.html">Movement</a> might be
+swapped out for machine learning (ML) approaches, to accelerate the mesh
+adaptation process and overcome certain limitation associated with classical
+mesh movement methods.</p>
+<p>In <span id="id1">[<a class="reference internal" href="../../publications.html#id4" title="M. Zhang, C. Wang, S. C. Kramer, J. G. Wallwork, S. Li, J. Liu, X. Chen, and M. D. Piggott. Towards universal mesh movement networks. In A. Globerson, L. Mackey, D. Belgrave, A. Fan, U. Paquet, J. Tomczak, and C. Zhang, editors, Advances in Neural Information Processing Systems, volume 37, 14934–14961. Curran Associates, Inc., 2024. URL: https://proceedings.neurips.cc/paper_files/paper/2024/file/1b0da24d136f46bfaee78e8da907127e-Paper-Conference.pdf.">18</a>]</span>, we established an approach termed UM2N (‘Universal Mesh
+Movement Networks’). When a classical mesh movement method was swapped out for
+UM2N, the computational cost was reduced by several orders of magnitude, since
+we were able to avoid expensive auxiliary PDE solves, such as Monge-Ampère type
+equations. Moreover, we found that UM2N was able to overcome the limitation of
+Monge-Ampère type methods being restricted to convex domains. The ‘universal’
+part of the acronym refers to the fact that the data-driven approach can be
+trained once and then deployed for any (physical) PDE - a great advantage over
+other approaches, such as our previous work in <span id="id2">[<a class="reference internal" href="../../publications.html#id11" title="W. Song, M. Zhang, J. G. Wallwork, J. Gao, Z. Tian, F. Sun, M. D. Piggott, J. Chen, Z. Shi, X. Chen, and J. Wang. M2N: mesh movement networks for PDE solvers. Advances in Neural Information Processing Systems, 35:7199–7210, 2022. URL: https://proceedings.neurips.cc/paper_files/paper/2022/file/2f88d8061f12abae9d14d376fd69c933-Paper-Conference.pdf.">6</a>]</span>, in which the ML
+model is trained per physical PDE.</p>
+<section id="funding-information">
+<h3>Funding information<a class="headerlink" href="#funding-information" title="Link to this heading">¶</a></h3>
+<p>This project is funded by <a class="reference external" href="https://www.huawei.com/en">Huawei Corporation Ltd.</a> and involves collaboration with the Noah’s Ark
+Lab.</p>
+</section>
+<section id="resources">
+<h3>Resources<a class="headerlink" href="#resources" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>NeurIPS spotlight paper: <span id="id3">[<a class="reference internal" href="../../publications.html#id4" title="M. Zhang, C. Wang, S. C. Kramer, J. G. Wallwork, S. Li, J. Liu, X. Chen, and M. D. Piggott. Towards universal mesh movement networks. In A. Globerson, L. Mackey, D. Belgrave, A. Fan, U. Paquet, J. Tomczak, and C. Zhang, editors, Advances in Neural Information Processing Systems, volume 37, 14934–14961. Curran Associates, Inc., 2024. URL: https://proceedings.neurips.cc/paper_files/paper/2024/file/1b0da24d136f46bfaee78e8da907127e-Paper-Conference.pdf.">18</a>]</span>.</p></li>
+<li><p>Previous work investigating data-driven mesh movement: <span id="id4">[<a class="reference internal" href="../../publications.html#id11" title="W. Song, M. Zhang, J. G. Wallwork, J. Gao, Z. Tian, F. Sun, M. D. Piggott, J. Chen, Z. Shi, X. Chen, and J. Wang. M2N: mesh movement networks for PDE solvers. Advances in Neural Information Processing Systems, 35:7199–7210, 2022. URL: https://proceedings.neurips.cc/paper_files/paper/2022/file/2f88d8061f12abae9d14d376fd69c933-Paper-Conference.pdf.">6</a>]</span>.</p></li>
+<li><p><a class="reference external" href="opt-adapt.html">Second half of the project</a> on combining mesh adaptation
+with PDE-constrained optimisation methods.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../index.html">
+              <img class="logo" src="https://avatars.githubusercontent.com/u/22053413" alt="Logo of Joseph G. Wallwork"/>
+            </a></p>
+<h1 class="logo"><a href="../../index.html">Joseph G. Wallwork</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../publications.html">Academic publications</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Software projects</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">Software</a><ul>
+  <li><a href="../movement.html">Movement</a><ul>
+      <li>Previous: <a href="../movement.html" title="previous chapter">Movement</a></li>
+      <li>Next: <a href="../petsc.html" title="next chapter">PETSc</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Joseph G. Wallwork.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="../../_sources/software/projects/data-driven-adapt.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

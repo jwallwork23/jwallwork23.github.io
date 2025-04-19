@@ -1,0 +1,26 @@
+PSyclone
+========
+
+`PSyclone <https://github.com/stfc/psyclone>`__ is a Python-based
+domain-specific compiler and code transformation system for Earth-system models
+written in Fortran. It plays a key role in the Met Office's next-generation
+weather model `LFRic
+<https://www.metoffice.gov.uk/research/approach/modelling-systems/lfric>`__ and
+can be used to transform code according to user-provided transformation
+specifications.
+
+Major contributions
+"""""""""""""""""""
+
+* Tools for streamlining tree traversal such as introducing the concept of
+  'sibling' nodes.
+* Functionality for more OpenACC GPU porting concepts such as `gang` and
+  `vector` clauses.
+
+Projects
+""""""""
+
+.. toctree::
+   :maxdepth: 1
+
+   UKCA GPU port <projects/ukca-gpu-port>

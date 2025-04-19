@@ -1,0 +1,34 @@
+GISS-GC
+=======
+
+Coupling effort for the `GISS Model E
+<https://www.nccs.nasa.gov/services/data-collections/coupled-products/modelIE>`__
+weather and climate model with the `GEOS-Chem
+<https://geoschem.github.io/index.html>`__ atmospheric chemistry model. Both
+models are written in Fortran.
+
+Project GitHub repo: https://github.com/fetch4/GISS-GC.
+
+Main contribution
+^^^^^^^^^^^^^^^^^
+
+I led ICCS' effort to complete the coupling effort initiated in `GCAP 2.0
+<https://gmd.copernicus.org/articles/14/5789/2021/>`__. This involved project
+management, as well as the technical tasks of configuring, building and running
+the coupled model on different high-performance computers, setting up
+development tools for the project, and ensuring that restart files and
+diagnostics are handled correctly.
+
+As part of this project, I had a contribution included in `GEOS-Chem version
+14.5.1 <https://zenodo.org/records/14629792>`__ and have an upcoming
+contribution to version 14.6.0.
+
+Project information
+"""""""""""""""""""
+
+This work was done as part of my work as an RSE at the
+`Institute of Computing for Climate Science (ICCS) <https://iccs.cam.ac.uk>`__.
+It was a `Virtual Earth Science Research Institute (VESRI)
+<https://www.schmidtsciences.org/virtual-earth-system-research-institute-vesri>`__
+`FETCH4 <https://fetch4.org>`__ project funded by `Schmidt Sciences
+<https://www.schmidtsciences.org>`__.

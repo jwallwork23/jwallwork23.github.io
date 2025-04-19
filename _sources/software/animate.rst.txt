@@ -1,0 +1,15 @@
+Animate
+=======
+
+`Animate <https://github.com/mesh-adaptation/animate>`__ is a Python-based
+anisotropic mesh adaptation toolkit for `Firedrake <firedrake.html>`__. I am the
+lead developer of Animate.
+
+Projects
+""""""""
+
+.. toctree::
+   :maxdepth: 1
+
+   Packages supporting mesh adaptation in Firedrake <projects/adapt-packages>
+   Combining mesh adaptation and PDE-constrained optimisation <projects/opt-adapt>

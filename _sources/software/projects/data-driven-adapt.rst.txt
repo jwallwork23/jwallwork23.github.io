@@ -1,0 +1,41 @@
+Data-driven mesh adaptation
+===========================
+
+Main contribution
+^^^^^^^^^^^^^^^^^
+
+I am involved in a research project base at `Imperial College London
+<https://www.imperial.ac.uk>`__ on various advanced topics related to mesh
+adaptation as a consultant.
+
+In the first half on data-driven methods, we investigated how mesh movement
+methods such as those implemented in `Movement <../movement.html>`__ might be
+swapped out for machine learning (ML) approaches, to accelerate the mesh
+adaptation process and overcome certain limitation associated with classical
+mesh movement methods.
+
+In :cite:`ZK24`, we established an approach termed UM2N ('Universal Mesh
+Movement Networks'). When a classical mesh movement method was swapped out for
+UM2N, the computational cost was reduced by several orders of magnitude, since
+we were able to avoid expensive auxiliary PDE solves, such as Monge-Ampère type
+equations. Moreover, we found that UM2N was able to overcome the limitation of
+Monge-Ampère type methods being restricted to convex domains. The 'universal'
+part of the acronym refers to the fact that the data-driven approach can be
+trained once and then deployed for any (physical) PDE - a great advantage over
+other approaches, such as our previous work in :cite:`SZ22`, in which the ML
+model is trained per physical PDE.
+
+Funding information
+"""""""""""""""""""
+
+This project is funded by `Huawei Corporation Ltd.
+<https://www.huawei.com/en>`__ and involves collaboration with the Noah's Ark
+Lab.
+
+Resources
+"""""""""
+
+* NeurIPS spotlight paper: :cite:`ZK24`.
+* Previous work investigating data-driven mesh movement: :cite:`SZ22`.
+* `Second half of the project <opt-adapt.html>`__ on combining mesh adaptation
+  with PDE-constrained optimisation methods.

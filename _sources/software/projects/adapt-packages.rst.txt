@@ -1,0 +1,31 @@
+Packages supporting mesh adaptation in Firedrake
+================================================
+
+Main contribution
+^^^^^^^^^^^^^^^^^
+
+Whilst a Research Associate at Imperial College London, I worked on advanced
+discretisation techniques for finite element methods for coastal ocean
+modelling. In particular, I sought to take the methods that I'd worked on in my
+PhD thesis and make them available to the Firedrake user community. To this end,
+I created three tools for implementing different types of mesh adaptation using
+Firedrake's domain-specific language:
+
+* `Animate <../animate.html>`__ - anisotropic metric-based mesh adaptation
+  package, which builds on the `Mmg-PETSc coupling project <ecse-mmg.html>`__.
+* `Movement <../movement.html>`__ - library of mesh movement methods.
+* `Goalie <../goalie.html>`__ - framework for goal-oriented error estimation,
+  supporting goal-oriented mesh adaptation using tools such as Animate and
+  Movement.
+
+Funding information
+"""""""""""""""""""
+
+The initial work was done as part of my postdoc at `Imperial College London
+<https://www.imperial.ac.uk>`__, which was funded by an `ARCHER2 eCSE
+<https://www.archer2.ac.uk/ecse>`__ grant from `EPCC
+<https://www.epcc.ed.ac.uk>`__.
+
+The ongoing software development and maintenance of Animate, Goalie, and
+Movement also received funding from `Huawei Corporation Ltd.
+<https://www.huawei.com/en>`__ as part of collaboration with the Noah's Ark Lab.
