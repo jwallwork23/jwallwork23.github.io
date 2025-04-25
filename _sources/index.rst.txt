@@ -15,6 +15,7 @@ the following links.
 
    Academic publications <publications>
    Software projects <software/index>
+   Presentations <presentations>
 
 My online profiles:
 

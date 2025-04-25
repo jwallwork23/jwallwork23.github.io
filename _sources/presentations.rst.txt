@@ -1,0 +1,170 @@
+.. title:: Presentations
+
+.. only:: html
+
+Presentations
+=============
+
+Conference, workshop, and seminar talks
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**2025**
+
+* *Accelerating UKCA by predicting timesteps with FTorch*, `HPC in Weather and
+  Climate Session
+  <https://durham.readthedocs.io/en/latest/hpcdays/workshops.html#Weather>`__,
+  Durham HPC Days, UK (upcoming).
+* *Facilitating machine learning in Fortran using FTorch* - Seminar at ECMWF,
+  Reading, UK (upcoming).
+* Seminar in the `DARC series
+  <Accelerating UKCA by predicting timesteps with FTorch>`__, University of
+  Reading, UK (upcoming).
+* *Facilitating online training in Fortran-based climate models*, `27th EuroAD
+  <https://scicomp.rptu.de/27th-euroad-workshop>`__, Kaiserslautern,
+  Germany (`slides <https://hackmd.io/@jwallwork/euroad-2025?type=slide>`__).
+* `ExCALIBUR Programme-wide Workshop
+  <https://excalibur.ac.uk/events/spf-excalibur-programme-wide-workshop>`__,
+  Bristol, UK (talk, panellist).
+
+**2024**
+
+* `Data Driven Algorithms for Exascale Simulations RSE training workshop
+  <https://www.eventbrite.co.uk/e/excalibur-workshop-data-driven-algorithms-tickets-780794767167>`__,
+  University of Exeter, UK.
+* `Computing Insights, Manchester
+  <https://www.scd.stfc.ac.uk/Pages/ciuk2023.aspx>`__ Computing Insights,
+  Manchester, UK.
+* `ExCALIBUR Programme-wide Workshop
+  <https://excalibur.ac.uk/events/spf-excalibur-programme-wide-workshop>`__,
+  Bristol, UK.
+
+**2022**
+
+* `Adaptive Moving and Anisotropic Meshes for the Numerical Approximation of
+  PDEs,
+  <https://www.icms.org.uk/workshops/2022/adaptive-moving-and-anisotropic-meshes-numerical-approximation-pdes>`__,
+  Edinburgh, UK (talk).
+* 30th International Meshing Roundtable, virtual (talk and research note
+  :cite:`WK22a`).
+* Platform for Research in Numerical Methods (PRISM) residential workshop,
+  Chicheley Hall, Buckinghamshire (talk).
+
+**2021**
+
+* `9th International Conference on Computational Methods in Marine Engineering
+  (MARINE) <https://congress.cimne.com/marine2021/frontal/default.asp>`__,
+  virtual (talk and paper :cite:`WM22`).
+* `14th World Congress on Computational Mechanics
+  <https://virtual.wccm-eccomas2020.org>`__, virtual (talk).
+* `Annual Firedrake workshop <http://firedrakeproject.org/firedrake_21.html>`__,
+  virtual (talk and chaired session).
+
+**2020**
+
+* World Conference on Computational Mechanics, Paris, France (talk).
+
+**2019**
+
+* 28th International Meshing Roundtable, Buffalo, NY, USA (talk and paper
+  :cite:`WB20a`, *with student travel award*).
+* `9th International Conference on Adaptive Modelling and Simulation (ADMOS)
+  <https://congress.cimne.com/admos2019/frontal/default.asp>`__, El Campello,
+  Spain (talk).
+* Annual Earth Science and Engineering (ESE) departmental conference, Imperial
+  College London.
+* `Annual Firedrake workshop <http://firedrakeproject.org/firedrake_19.html>`__,
+  University of Durham (talk).
+
+**2018**
+
+* Computational Science and Engineering (CSE) Seminar, ICL (talk).
+  PDESoft, Bergen, Norway (talk).
+* Junior Applied Mathematics Seminars, ICL (talk).
+* `Advanced Simulation of Coupled Earthquake and Tsunami Events (ASCETE)
+  <https://t3projects.cen.uni-hamburg.de/index.php?id=4174>`__, Bayrischzell,
+  Germany (talk).
+
+Poster presentations
+^^^^^^^^^^^^^^^^^^^^
+
+**2024**
+
+* `Research Software London/South-East
+  <https://rslondon.ac.uk/rslondonsoutheast2024>`__, Imperial College London,
+  UK `second prize poster <https://doi.org/10.5281/zenodo.12806403>`__).
+* `Computing Insights, Manchester
+  <https://www.scd.stfc.ac.uk/Pages/ciuk2023.aspx>`__ Computing Insights,
+  Manchester, UK.
+
+**2022**
+
+* `United Kingdom Chemistry and Aerosols (UKCA) training
+  <https://www.ukca.ac.uk/wiki/index.php/UKCA_Chemistry_and_Aerosol_Tutorials_at_UMvn13.0>`__,
+  University of Cambridge, UK (**best poster award**).
+
+**2019**
+
+* Annual Earth Science and Engineering (ESE) departmental conference, Imperial
+  College London, UK.
+* `Annual MPE CDT Jamboree
+  <http://mpecdt.ac.uk/welcome-jamboree/jamboree-posters>`__ (also chaired the
+  student symposium), Imperial College London, UK.
+
+**2018**
+
+* `Annual PETSc workshop
+  <https://www.mcs.anl.gov/petsc/meetings/2018/index.html>`__, London, UK.
+* `Annual SIAM UK/IE meeting
+  <https://www.southampton.ac.uk/maths/news/seminars/2018/01/11-siam-seminar.page>`__,
+  Southampton, UK (`second prize poster
+  <https://twitter.com/MPECDT/status/951756165414883328>`__, *with student
+  travel award*).
+* `Annual Firedrake workshop <http://firedrakeproject.org/firedrake_18.html>`__,
+  Imperial College London, UK.
+
+**2017**
+
+* `SIAM Conference on Mathematical and Computational Issues in the Geosciences
+  <http://www.siam-gs17.de>`__, Erlangen, Germany.
+  `CliMathNet <http://www.climathnet.org/2017conferencereading>`__, University
+  of Reading, UK (**best student poster award**).
+
+Tutorials and walkthroughs
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**2025**
+
+* FTorch tutorial, `ICCS Summer School
+  <https://iccs.cam.ac.uk/events/institute-computing-climate-science-annual-summer-school-2025>`__,
+  UK (upcoming)
+* FTorch tutorial, `Durham HPC Days
+  <https://www.durham.ac.uk/research/institutes-and-centres/data-science/events-/durham---hpc-days/>`__,
+  Cambridge, UK (upcoming).
+* FTorch tutorial, `Department of Atmospheric, Oceanic, and Planetary Physics
+  <https://www.physics.ox.ac.uk/research/subdepartment/atmospheric-oceanic-and-planetary-physics>`__,
+  University of Oxford, UK (upcoming).
+
+**2024**
+
+* FTorch tutorial, `ICCS Summer School
+  <https://iccs.cam.ac.uk/events/institute-computing-climate-science-annual-summer-school-2024>`__,
+  Cambridge UK.
+
+**2022**
+
+* `Introduction to Firedrake for Applied Computational Science and Engineering
+  MSc students <https://firedrakeproject.org/tutorial_may_22.html>`__, Imperial
+  College London, UK.
+
+**2021**
+
+* `Introduction to using Firedrake on ARCHER2
+  <https://www.archer2.ac.uk/training/courses/210823-firedrake>`__ (virtual).
+
+**2020**
+
+* Introduction to Firedrake for MPE CDT students (virtual).
+
+**2018**
+
+* Introduction to Firedrake for PETSc developers (Argonne National Laboratory).
