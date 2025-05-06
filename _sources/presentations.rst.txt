@@ -22,9 +22,6 @@ Conference, workshop, and seminar talks
 * *Facilitating online training in Fortran-based climate models*, `27th EuroAD
   <https://scicomp.rptu.de/27th-euroad-workshop>`__, Kaiserslautern,
   Germany (`slides <https://hackmd.io/@jwallwork/euroad-2025?type=slide>`__).
-* `ExCALIBUR Programme-wide Workshop
-  <https://excalibur.ac.uk/events/spf-excalibur-programme-wide-workshop>`__,
-  Bristol, UK (talk, panellist).
 
 **2024**
 
@@ -36,12 +33,12 @@ Conference, workshop, and seminar talks
   Manchester, UK.
 * `ExCALIBUR Programme-wide Workshop
   <https://excalibur.ac.uk/events/spf-excalibur-programme-wide-workshop>`__,
-  Bristol, UK.
+  Bristol, UK (talk, panellist).
 
 **2022**
 
 * `Adaptive Moving and Anisotropic Meshes for the Numerical Approximation of
-  PDEs,
+  PDEs
   <https://www.icms.org.uk/workshops/2022/adaptive-moving-and-anisotropic-meshes-numerical-approximation-pdes>`__,
   Edinburgh, UK (talk).
 * 30th International Meshing Roundtable, virtual (talk and research note
