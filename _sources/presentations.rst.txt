@@ -14,11 +14,10 @@ Conference, workshop, and seminar talks
   Climate Session
   <https://durham.readthedocs.io/en/latest/hpcdays/workshops.html#Weather>`__,
   Durham HPC Days, UK (upcoming).
-* *Facilitating machine learning in Fortran using FTorch* - Seminar at ECMWF,
-  Reading, UK (upcoming).
-* Seminar in the `DARC series
+* Seminars in the `DARC series
   <Accelerating UKCA by predicting timesteps with FTorch>`__, University of
-  Reading, UK (upcoming).
+  Reading, UK, and at ECMWF, Reading, UK (`slides
+  <https://hackmd.io/@jwallwork/darc-seminar-2025?type=slide>`__).
 * *Facilitating online training in Fortran-based climate models*, `27th EuroAD
   <https://scicomp.rptu.de/27th-euroad-workshop>`__, Kaiserslautern,
   Germany (`slides <https://hackmd.io/@jwallwork/euroad-2025?type=slide>`__).
