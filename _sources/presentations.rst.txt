@@ -38,10 +38,11 @@ Conference, workshop, and seminar talks
 
 **2022**
 
-* `Adaptive Moving and Anisotropic Meshes for the Numerical Approximation of
-  PDEs
+* *Accelerating Mesh Adaptation using Neural Networks*, `Adaptive Moving and
+  Anisotropic Meshes for the Numerical Approximation of PDEs
   <https://www.icms.org.uk/workshops/2022/adaptive-moving-and-anisotropic-meshes-numerical-approximation-pdes>`__,
-  Edinburgh, UK (talk).
+  Edinburgh, UK (`recording
+  <https://media.ed.ac.uk/media/Accelerating+Mesh+Adaptation+using+Neural+Networks+-+Joseph+Wallwork/1_tetc00gy/51612401>`__).
 * 30th International Meshing Roundtable, virtual (talk and research note
   :cite:`WK22a`).
 * Platform for Research in Numerical Methods (PRISM) residential workshop,
@@ -127,11 +128,14 @@ Poster presentations
   `CliMathNet <http://www.climathnet.org/2017conferencereading>`__, University
   of Reading, UK (**best student poster award**).
 
-Tutorials and walkthroughs
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Teaching and tutorials
+^^^^^^^^^^^^^^^^^^^^^^
 
 **2025**
 
+* Differentiable Programming course, `ICCS Summer School
+  <https://iccs.cam.ac.uk/events/institute-computing-climate-science-annual-summer-school-2025>`__,
+  UK (upcoming)
 * FTorch tutorial, `ICCS Summer School
   <https://iccs.cam.ac.uk/events/institute-computing-climate-science-annual-summer-school-2025>`__,
   UK (upcoming)
@@ -146,7 +150,11 @@ Tutorials and walkthroughs
 
 * FTorch tutorial, `ICCS Summer School
   <https://iccs.cam.ac.uk/events/institute-computing-climate-science-annual-summer-school-2024>`__,
-  Cambridge UK.
+  Cambridge, UK.
+* Intermediate Git and GitHub, `ICCS Summer School
+  <https://iccs.cam.ac.uk/events/institute-computing-climate-science-annual-summer-school-2024>`__,
+  Cambridge, UK
+  (`slides <https://hackmd.io/@jwallwork/2024-07-10-intermediate-git-tools?type=slide#/>`__).
 
 **2022**
 
